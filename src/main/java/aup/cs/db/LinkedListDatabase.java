@@ -10,6 +10,7 @@ public class LinkedListDatabase implements Database {
     storage = new LinkedList<Record>();
   }
 
+  @Override
   public void insert(Record record) {
     storage.add(record);
   }
